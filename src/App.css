@@ -1,0 +1,115 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.app {
+  width: 317px;
+  background: #1A1B21;
+}
+.my-photo {
+  width: 317px;
+  border-radius: 10px 10px 0 0;
+}
+.name {
+  font-size: 1.7rem;
+  margin: 0.5em 0 0;
+}
+.job-title {
+  color: #F3BF99;
+  margin: 0 0.5em 0.5em;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.projects-link {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.navbar,
+a.btn,
+.social,
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-in,
+.icon-mail {
+  height: 1rem ;
+  margin-right: 0.75em;
+  border-radius: 2px;
+}
+
+a.btn {
+  height: 34px;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  width: 125px;
+  display: flex;
+  margin-top: 1.62em;
+}
+a.in-btn {
+  background: #5093E2;
+  color: #fff;
+  margin-left: 0.8em;
+}
+a.email-btn{
+  background-color: #fff;
+  color: #1A1B21;
+  margin-right: 0.25em;
+}
+.main-content {
+  text-align: left;
+  padding: 2em 3em 2em;
+  line-height: 1.3em;
+  letter-spacing: 0.8;
+  font-size: 0.7rem;
+}
+.main-content h2 {
+  margin-bottom: 0;
+}
+.main-content p {
+  margin-top: 0.5em;
+}
+.social {
+  height: 64px;
+  background: #161619;
+}
+
+.app,
+.social {
+  border-radius: 0 0 10px 10px;
+}
+.social > a img {
+  width: 30px;
+  height: 30px;
+  margin: 12px;;
+}
+
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
